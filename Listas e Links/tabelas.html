@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas e layouts tabelados</title>
+</head>
+
+<body>
+    <h2>Tabelas</h2>
+    <table border="1" width="50%">
+        <thead>
+            <tr>
+                <td>1A</td>
+                <td>1B</td>
+                <td>1C</td>
+            </tr>
+            <tr>
+                <td colspan="3">Descrição da tabela</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>2A</td>
+                <td>2B</td>
+                <td>2C</td>
+            </tr>
+            <tr>
+                <td>3A</td>
+                <td colspan="3">3B</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Rodapé da Tabela</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Tabela como Layout</h2>
+
+    <table width="600">
+        <tr height="90">
+            <td colspan="4" bgcolor="#AAD9BB" align="center">Cabeçalho</td>
+        </tr>
+        <tr height="300">
+            <td width="20" bgcolor="#EAECCC"></td>
+            <td bgcolor="#80BCBD">Coluna 1</td>
+            <td bgcolor="#F9F7C9">Coluna 2</td>
+            <td width="20" bgcolor="#EAECCC"></td>
+        </tr>
+        <tr>
+            <td colspan="4" bgcolor="#D5F0C1">Rodapé</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+<!-- Revisão aula 4 - Tabelas e Layouts Tabelados
+
+1.Algumas aplicações ainda utilizam layouts com tabelas para ter mais segurança na apresentação de dados. E a aplicação é o e-mail marketing.
+2.Muitas vezes o CSS é filtrado pelos clientes de e-mail, como: outlook, gmail.
+3.CSS para e-mail marketing é muito falho
+4.tag <table> para fazer tabelas
+5.Definir linhas com <tr>
+6.Definir colunas (células) com <td>
+7.Adicionar bordas na <table> com border="1"
+8.Adicionar largura toral da página com width="100%" na tag <table>
+9.<tbody> para definir o corpo da tabela
+10.<thead> para definir o cabeçalho da tabela, colocar o título das colunas
+11.colspan="3" para definir o número de colunas que irá mesclar
+12.align="center" alinhar texto ao centro
+13.align="right" alinhar texto à direita
+14.<tfoot> para criar o rodapé da tabela
+15.height="300" para colocar altura na linha
+16.bgcolor="#454545" para colocar cor no fundo -->
