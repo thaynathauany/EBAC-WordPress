@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+</head>
+
+<body
+    style="display: flex; align-items: center; justify-content: center; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    <table width="600">
+        <thead>
+            <tr>
+                <td><img src="../Exercicio/imagens/cabecalho.png" /></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">
+                    <img src="../Exercicio/imagens/imagem.png" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <h1 style="color: #7b0db4;">Inovação para transformar</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Além de comunicação, estrtégia e planejamento, operamos todos os processos buscando pela
+                        excelência operacional e otimização de recursos, seja por meio da inovação de nossa plataforma
+                        ou de parcerias estratégicas</p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <a href="https://vasto.com.br/" target="_blank">
+                        <img src="../Exercicio/imagens/botao.png" />
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <p>Para mais informações acesse: <a href="https://vasto.com.br/" target="_blank">vasto.com.br</a>
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
