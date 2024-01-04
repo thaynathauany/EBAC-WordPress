@@ -1,0 +1,21 @@
+Revisão Aula 2 - Elementos de Layout
+
+1.Conhecer tags específicas para montagem de layouts
+2.Padrões serve para uniformizar o código
+3.Semântica é o estudo do significado das tags
+4.A organização ajuda a entender o que está acontecendo
+5.Evitar desvio de função de tag.
+6.Usar semântica correta no código
+7.Diagramação é a distribuição gráfica dos elementos na página.
+8.Tableless utiliza poucas tags para montar o layout a partir do CSS. Foi tirado do HTML a parte visual, ficando agora sob responsabilidade das CSS.
+9.Cada linguagem tem sua responsabilidade
+10.<header> uma tag para dá significado ao cabeçalho
+11.HTML5 usa a semântica para montagem de layout
+12.<section> tag para cuidar de uma seção
+13.<nav> informar que determinados links servem para navegação
+14.<article> para um conteúdo mais independente
+15.<aside> conteúdo paralelo ao conteúdo principal
+16.<footer> tag para o rodapé da página
+17.tag meta com atributo viewport -> Adaptar a largura do layout a largura da tela
+18.Recomendado apenas uma tag <h1> por página
+19.Podemos usar tag <h1> dentro da tag <article>, e repetir em cada <article> se for necessário, para não ter problemas com indexador de busca.

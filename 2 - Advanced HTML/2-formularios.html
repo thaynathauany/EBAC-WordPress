@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Front-end - HTML</title>
+</head>
+
+<body>
+    <header>
+        <h2>Blog TT</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Contato</h1>
+            <p>Preencha os campos abaixo</p>
+        </article>
+
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" />
+            </div>
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+            </div>
+
+            <div>
+                <p>
+                    <label>Qual linguagem você prefere?</label>
+                    <input type="radio" name="linguagens" value="html"> HTML
+                    <input type="radio" name="linguagens" value="css"> CSS
+                    <input type="radio" name="linguagens" value="javascript"> JavaScript
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    <label>Qual linguagem você sabe?</label>
+                    <input type="checkbox" name="linguagens" value="html"> HTML
+                    <input type="checkbox" name="linguagens" value="css"> CSS
+                    <input type="checkbox" name="linguagens" value="javascript"> JavaScript
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    <label>Qual sua cor favorita?</label>
+                    <select>
+                        <option value="Azul" selected>Azul</option>
+                        <option value="Verde">Verde</option>
+                        <option value="Vermelho">Vermelho</option>
+                    </select>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Tt</p>
+    </footer>
+</body>
+
+</html>

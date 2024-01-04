@@ -1,0 +1,30 @@
+Revisão Aula 3 - Formulários
+
+1.Usuário precisa às vezes envidar dados para interagir
+2.Label é o rótulo
+3.<form> para criar formulários
+4.<input> para enviar dados.
+5.Atributo type="text" para inserir um texto
+6.Atributo name="" para nomear
+7.tag <input> trabalha muito com atributos
+8.Na tag <label> tem o atributo for="" que cria a relação com a tag <input> criada para aquela label específica.
+9.Usa o atributo id="" para para identificar o <input> e só pode ser usado uma vez por página
+10.Usamos a <div> para organizar a label e o input do formulário.
+11.A tag <div> não tem semântica
+12.A tag <textarea> serve para o usuário deixar uma mensagem.
+13.O atributo rows="" dentro da tag <textarea> serve para adicionar linhas.
+14.O atributo type="submit" serve para submeter o formulário. 
+15.Na url tem um (?) quando fazemos a submissão dos dados pelo método get, e após os dados digitados no formulário.
+16.Método get -> method="get" é o padrão do envio de formulário e envia parâmetros.
+17.Método post -> method="post" não adiciona nenhum parâmetro na URL.
+18.Por padrão não utilizamos o método get.
+19.Quem faz a tratativa desses dados enviados pelo formulário é o backend
+20.Atributo type="radio" dentro da tag <input> cria opções de escolha para para apenas uma opção.
+21.Usamos o <p> como recurso para dar mais espaço.
+22.Atributo type="checkbox" dentro da tag <input> cria opções de escolha para várias opções.
+23.Para escolher apenas uma opção no type="radio" o atributo name="" deve ter o mesmo valor.
+24.A tag <select> cria um menu de seleção
+25.A tag <option> dentro da tag <select> cria opções
+26.O atributo value="" é usado pelo backend como referência
+27.O atributo selected dentro da tag <option> que está dentro da tag <select> serve para deixar uma opção selecionada dentro do sistema.
+28.O atributo placeholder deixa uma informação na caixa do <input>, para o usuário ler.

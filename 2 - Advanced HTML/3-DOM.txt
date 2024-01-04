@@ -1,0 +1,15 @@
+Revisão Aula 5 - DOM - HTML
+
+1.DOM -> Document Objetct Model (Modelo de Objeto do Documento)
+2.Entender como o navegador está interpretando o nosso código
+3.Navegadores têm ferramentas para analisar o código
+4.Ver árvores de processo, carreagamento de arquivos de imagem e dependências da página
+5.Usamos o firefox para estudo do DOM.
+6.Firefox identifica de vermelho o que merece atenção
+7.Botão direito do mouse -> Inspensionar página
+8.Botão direito do mouse -> Vér código-fonte da página
+9.Consigo selecionar algo no DOM e ver o CSS
+10.Vimos algumas abas da ferramenta, como: Desempenho, rede, e outras
+11.Aba rede ver tempo de carregamento
+12.É importante, para vermos como outros desenvolvedores estruturam seu código.
+13.Existe modo design responsivo no navegador.
