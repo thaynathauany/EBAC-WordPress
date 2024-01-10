@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Front-end - HTML</title>
+    <link rel="stylesheet" type="text/css" href="formularios.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>EBAC, HTML - Thayná</h2>
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <strong>
+                        <li><a href="#home">Home</a></li>
+                    </strong>
+                    <strong>
+                        <li><a href="#sobre">Sobre</a></li>
+                    </strong>
+                    <strong>
+                        <li><a href="#contato">Contato</a></li>
+                    </strong>
+                </ul>
+            </nav>
+
+
+            <form>
+                <div class="titulo">
+                    <h1>Contato</h1>
+                    <p>Preencha os campos abaixo</p>
+                </div>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" />
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                </div>
+
+                <label>Qual linguagem você prefere?</label>
+                <div class="tags">
+                    <span>HTML</span>
+                    <input type="radio" name="linguagens" value="html">
+                    <span>CSS</span>
+                    <input type="radio" name="linguagens" value="css">
+                    <span>JavaScript</span>
+                    <input type="radio" name="linguagens" value="javascript">
+                </div>
+
+                <label class="labelTags">Qual linguagem você sabe?</label>
+                <div class="tags">
+                    <span>HTML</span>
+                    <input type="radio" name="linguagens" value="html">
+                    <span>CSS</span>
+                    <input type="radio" name="linguagens" value="css">
+                    <span>JavaScript</span>
+                    <input type="radio" name="linguagens" value="javascript">
+                </div>
+
+                <div>
+                    <label>Qual sua cor favorita?</label>
+                    <select>
+                        <option value="" data-default disabled selected></option>
+                        <option value="Azul">Azul</option>
+                        <option value="Verde">Verde</option>
+                        <option value="Vermelho">Vermelho</option>
+                    </select>
+                </div>
+
+            </form>
+        </section>
+
+        <footer>
+            <p>Desenvolvido por Tt</p>
+        </footer>
+    </div>
+</body>
+
+</html>
