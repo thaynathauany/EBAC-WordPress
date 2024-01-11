@@ -1,0 +1,288 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.main-container {
+  max-width: 120rem;
+  margin: auto;
+  width: 92%;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+  height: 70px;
+}
+
+header span {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#topicos {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#minha-foto img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+#minha-foto {
+  font-weight: bold;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: 0px 100px 0px 100px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  transition: all 0.1s linear;
+}
+
+.menu a:hover {
+  background: #999;
+  color: #7843e9;
+}
+
+.submenu-1 {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  padding: 5px;
+  width: 200px;
+  background: #999;
+  border-radius: 0 0 5px 5px;
+}
+
+.submenu-1 a {
+  width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+}
+
+.submenu-1 a:hover {
+  background: #666;
+}
+
+.home-hero {
+  color: #fff;
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(../images/common-bg.svg);
+  background-position: center;
+  height: 100vh;
+  min-height: 100%;
+  max-height: 120rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.home-hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #111;
+  font-weight: 800;
+}
+
+.home-hero p {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #111;
+  font-weight: 800;
+}
+
+.home-hero__socials {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 0.5rem;
+}
+
+.home-hero__socials img {
+  width: 50px;
+}
+
+.home-hero__social {
+  margin-bottom: 10px;
+}
+
+.home-hero__social:last-child {
+  margin-bottom: 0px;
+}
+
+.btn-div {
+  margin-top: 50px;
+}
+
+.btn {
+  background: #7843e9;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+  height: 50px;
+  width: 200px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.container-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  color: #666;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    /* align-items: center; */
+    height: auto;
+  }
+
+  #minha-foto {
+    margin-bottom: 10px;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  .menu {
+    flex-direction: row; /* Alterado para exibir os itens do menu lado a lado */
+    justify-content: center; /* Centraliza os itens do menu horizontalmente */
+    gap: 10px;
+  }
+
+  .submenu-1 {
+    position: static;
+    width: 100%;
+    display: none;
+  }
+
+  .menu li:hover > ul.submenu-1 {
+    display: block;
+    top: 0;
+    padding: 5px;
+    border-radius: 0;
+  }
+
+  .menu a {
+    padding: 10px;
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.about-me h1 {
+  text-transform: uppercase;
+}
+.spacer {
+  height: 5px;
+  width: 35px;
+  background-color: #8a2be2;
+  border-radius: 10px;
+}
+
+.sobre-mim {
+  display: flex;
+  /* swidth: 100%; */
+  /* align-items: center; */
+  justify-content: center;
+  gap: 90px;
+  padding: 100px;
+  flex-direction: row;
+}
+
+.text-about-me {
+  width: 50%;
+  color: #666;
+}
+.text-about-me > h2 {
+  color: #000;
+}
+
+.habilidades {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.habilidades1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.habilidade {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}

@@ -1,0 +1,122 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #292d33;
+}
+
+body > h2 {
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  color: #555;
+  padding: 20px 0;
+}
+
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #292d33;
+  color: #fff;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  /* background-color: #9fb3b5; */
+  color: #fff;
+}
+
+/* even, seleciona linhas pares */
+/* odd, seleciona linhas ímpares */
+tbody tr:nth-child(even) {
+  /* background-color: #e2e2e2; */
+}
+tbody tr:nth-child(odd) {
+  /* background-color: #f7f2f2; */
+}
+
+tbody tr:hover {
+  background-color: #000000;
+}
+
+tr td {
+  text-align: center;
+  text-align: center;
+}
+
+tr th {
+  text-align: center;
+}
+
+tr td button {
+  border-radius: 50px;
+  border: 1px solid #ec3d45;
+  background-color: #ec3d45;
+  color: #fff;
+  font-weight: 600;
+  height: 45px;
+}
+
+tr td button:hover {
+  border-radius: 50px;
+  border: 1px solid #b32d33;
+  background-color: #b32d33;
+  color: #fff;
+  font-weight: 600;
+}
+
+.desaparecer {
+  border: none;
+}
+
+.total {
+  font-weight: 900;
+}
+.total:hover {
+  background-color: #292d33;
+}
+
+.imprimir:hover {
+  background-color: #292d33;
+}
+
+.produto {
+  background-color: white;
+  color: #000000;
+}
+
+.janeiro {
+  background-color: #ff9d00;
+}
+
+.janeiro:hover {
+  background-color: #ca7e03;
+}
+
+.fevereiro {
+  background-color: #ec3d45;
+}
+.fevereiro:hover {
+  background-color: #b32d33;
+}
+
+.marco {
+  background-color: #08b9ca;
+}
+.marco:hover {
+  background-color: #089ba8;
+}
+
+.titulo {
+  text-align: left;
+}

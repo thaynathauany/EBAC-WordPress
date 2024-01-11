@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/layouts-fluidos.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Layouts Fluidos</h1>
+    <p>Adapta a largura da tela</p>
+
+    <section>
+        <h2>100% width / largura</h2>
+
+        <div class="container-fluid">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <article>
+                <p>
+                    Os layouts fluídos são aqueles que acompanham o tamanho da tela, apenas aumentando e diminuindo, não
+                    trocando estrutura e não pensando muito na usabilidade, vamos pensar em acessar um site em uma tv de
+                    50″
+                    e acessar o mesmo site em um celular onde esse site é visto da mesma forma pelos 2 dispositivos, é
+                    claro
+                    que ficará horrível em um dos casos se não nos dois, para construir esse tipo de layout não se pensa
+                    muito em “px” e sim em “%”, para que o elemento se estique de acordo com o pai tendo assim a sua
+                    “fluidez”. Aqui tem um exemplo simples de como ele funciona: 960.gs.
+                </p>
+                <img class="fluido" src="./images/layout-fluido.jpg" alt="Layout Fluido">
+                <div class="fixed-width">
+                    largura fixa
+                </div>
+
+                <div class="background">
+                    Repetir imagem na horizontal
+                </div>
+
+                <div>
+                    <picture>
+                        <source media="(min-width: 280px)" srcset="./images/coffee-sm.jpg">
+                        <source media="(min-width: 600px)" srcset="./images/coffee-square.jpg">
+                        <img srcset="./images/coffee.jpg" alt="Café">
+                    </picture>
+                </div>
+
+            </article>
+        </div>
+    </section>
+
+</body>
+
+</html>

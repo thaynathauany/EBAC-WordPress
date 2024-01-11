@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/graficos.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Elementos gráficos</h1>
+
+    <div id="grafico-01">
+        <h2>Imagem Raster</h2>
+        <p>Uma imagem raster é formada por pixels. Abaixo, temos um exemplo de uma imagem raster representando café.</p>
+        <img src="./images/coffee-square.jpg" alt="café">
+    </div>
+
+    <div id="triangulo">
+        <h2>Formas Geométricas</h2>
+        <p>Para criar este recurso é utilizado a técnica com bordas, então os elementos não terão largura ou altura por
+            meio de width e height.
+            O seu tamanho virá da propriedade border, como também a cor do triângulo</p>
+        <div id="triangulo-para-cima"></div>
+    </div>
+
+
+    <div id="imagem-vetorial">
+        <h2>Imagem Vetorial</h2>
+        <p>Imagens vetoriais são baseadas em vetores, o que as torna escaláveis sem perda de qualidade. Abaixo, temos um
+            exemplo de uma imagem vetorial representando café.</p>
+        <img src="./images/coffee.svg" alt="café ">
+    </div>
+
+    <div>
+        <h2>Gráfico de Barras</h2>
+        <p>Utilizando o elemento <code>&lt;canvas&gt;</code>, podemos desenhar gráficos diretamente no navegador.
+            Abaixo, um simples gráfico de barras verde.</p>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#00FF99";
+        ctx.fillRect(80, 0, 100, 80);
+    </script>
+
+</body>
+
+</html>

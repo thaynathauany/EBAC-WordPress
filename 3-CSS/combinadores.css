@@ -167,7 +167,7 @@ h3 {
       (~) combinador de elementos irmãos geral / após elemento de referência
 */
 
-header h2 {
+/* header h2 {
   color: red;
 }
 
@@ -191,4 +191,4 @@ div ~ p {
   text-transform: uppercase;
   background: grey;
   color: greenyellow;
-}
+} */
