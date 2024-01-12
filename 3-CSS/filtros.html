@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="filtros.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Filtros e Manipulação com CSS</h1>
+
+    <section>
+
+        <div class="container-fluid">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <article>
+
+                <div>
+                    <picture>
+                        <source media="(min-width: 280px)" srcset="./images/coffee-sm.jpg">
+                        <source media="(min-width: 600px)" srcset="./images/coffee-square.jpg">
+                        <img srcset="./images/coffee.jpg" alt="Café">
+                    </picture>
+                    <img class="filtro" src="./images/matrix.png" />
+                </div>
+
+            </article>
+        </div>
+    </section>
+
+</body>
+
+</html>

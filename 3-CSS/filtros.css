@@ -1,0 +1,126 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+nav {
+  background-color: #ffd699;
+  padding: 10px 0px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff7f50; /* Coral color on hover */
+}
+
+article {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+}
+
+picture {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* <filter-function> values */
+/* filter: blur(5px);
+filter: brightness(0.4);
+filter: contrast(200%);
+filter: drop-shadow(16px 16px 20px blue);
+filter: grayscale(50%);
+filter: hue-rotate(90deg);
+filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%); */
+
+/* URL */
+/* filter: url("filters.svg#filter-id"); */
+
+/* Multiple filters */
+/* filter: contrast(175%) brightness(3%);
+filter: drop-shadow(3px 3px red) sepia(100%) drop-shadow(-3px -3px blue); */
+
+/* Use no filter */
+/* filter: none; */
+
+/* Global values */
+/* filter: inherit;
+filter: initial;
+filter: revert;
+filter: revert-layer;
+filter: unset; */
+
+.filtro {
+  filter: drop-shadow(16px 16px 20px blue);
+}
+
+.filtro:hover {
+  /* filter: grayscale(100%); */
+  filter: sepia(100%);
+}
+
+/* Estilos para telas dispositivos móveis*/
+@media only screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 5px 0;
+  }
+
+  article {
+    padding: 10px;
+  }
+}
