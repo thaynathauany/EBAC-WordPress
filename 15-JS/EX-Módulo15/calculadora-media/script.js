@@ -2,6 +2,8 @@ function calcularMedia() {
     var nota1 = parseFloat(document.getElementById('nota1').value);
     var nota2 = parseFloat(document.getElementById('nota2').value);
     var nota3 = parseFloat(document.getElementById('nota3').value);
+
+
     var mensagemElement = document.getElementById('mensagem');
 
     if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
@@ -18,6 +20,13 @@ function calcularMedia() {
     document.getElementById('resultado').textContent = media.toFixed(2);
     mensagemElement.textContent = '';
 
+    var paragrafoAdicionadoNoTexto = document.createElement('p');
+    paragrafoAdicionadoNoTexto.textContent = 'As notas adicionadas foram:';
+
+    var notasAdicionadasElement = document.getElementById('notasAdicionadas');
+
+    notasAdicionadasElement.parentNode.insertBefore(paragrafoAdicionadoNoTexto, notasAdicionadasElement);
+
     adicionarNota(nota1);
     adicionarNota(nota2);
     adicionarNota(nota3);
@@ -25,6 +34,8 @@ function calcularMedia() {
     document.getElementById('nota1').value = '';
     document.getElementById('nota2').value = '';
     document.getElementById('nota3').value = '';
+
+
 }
 
 function adicionarNota(nota) {
