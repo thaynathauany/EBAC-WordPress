@@ -1,4 +1,4 @@
-// Aplicando e retirando estilo dos inputs de acordo com o definido os campos dos formulários
+// Aplicando e retirando estilo dos inputs de acordo com o definido nos campos dos formulários
 
 document.getElementById("nome").addEventListener('blur', function () {
     var campoNome = this;
@@ -13,6 +13,7 @@ document.getElementById("nome").addEventListener('blur', function () {
         //console.log("Campo com menos de 8 caracteres. Adicionando classe input-error.");
     } else {
         campoNome.classList.remove("input-error");
+        campoNome.style.color = ''
         //console.log("Campo válido. Removendo classe input-error.");
     }
 });
@@ -50,6 +51,7 @@ document.getElementById("telefone").addEventListener('blur', function () {
         campoTelefone.style.color = 'red'
     } else {
         campoTelefone.classList.remove("input-error");
+        campoTelefone.style.color = ''
     }
 });
 
@@ -62,6 +64,7 @@ document.getElementById("cep").addEventListener('blur', function () {
         campoCep.style.color = 'red'
     } else {
         campoCep.classList.remove("input-error");
+        campoCep.style.color = ''
     }
 });
 
@@ -74,6 +77,7 @@ document.getElementById("cidade").addEventListener('blur', function () {
         campoCidade.style.color = 'red'
     } else {
         campoCidade.classList.remove("input-error");
+        campoCidade.style.color = ''
     }
 });
 
@@ -86,6 +90,7 @@ document.getElementById("estado").addEventListener('blur', function () {
         campoEstado.style.color = 'red'
     } else {
         campoEstado.classList.remove("input-error");
+        campoEstado.style.color = ''
     }
 });
 
