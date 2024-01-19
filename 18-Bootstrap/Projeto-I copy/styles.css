@@ -1,0 +1,56 @@
+.container {
+  padding: 20px 0px;
+}
+
+.container {
+  padding: 20px 0px;
+}
+
+.container.slides {
+  width: 450px;
+}
+
+#home {
+  height: 100vh;
+}
+
+.card {
+  width: 33.33%;
+  min-height: 530px;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-group {
+  margin-bottom: 5px;
+}
+
+.img-thumbnail {
+  height: 80vh;
+  align-items: center;
+}
+
+#logo {
+  width: 100px;
+}
+
+.hr3 {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #ccc, transparent);
+}
+
+.img-thumbnail.dog {
+  height: auto;
+  align-items: center;
+}
+
+.dog {
+  display: flex;
+  justify-content: center;
+}
